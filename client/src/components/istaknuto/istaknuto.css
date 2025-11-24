@@ -1,0 +1,44 @@
+.istaknuto{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+.istaknutoItem{
+    flex: 1;
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 260px;
+    box-shadow: 0 8px 20px rgba(15,33,55,0.08);
+}
+.istaknutoImg{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.istaknutoTitle{
+    position: absolute;
+    bottom: 18px;
+    left: 18px;
+    text-shadow: 0 4px 18px rgba(0,0,0,0.35);
+}
+
+.istaknutoTitle h1{
+    margin:0;
+    font-size:1.6rem;
+}
+.istaknutoTitle h2{
+    margin:4px 0 0 0;
+    font-size:1rem;
+    font-weight:500;
+    opacity:0.95;
+}
+
+@media (max-width: 768px){
+    .istaknuto{ flex-direction: column; }
+    .istaknutoItem{ width:100%; }
+}

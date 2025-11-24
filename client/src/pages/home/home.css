@@ -1,0 +1,23 @@
+.homeContainer{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding: 0 16px;
+    max-width: 1200px;
+}
+
+.homeTitle{
+    width: 100%;
+    max-width: 1024px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #0f2137;
+    margin: 8px 0 0 0;
+    text-align: left;
+}
+
+@media (max-width: 768px){
+    .homeTitle{ text-align:center; font-size:1.4rem; }
+}

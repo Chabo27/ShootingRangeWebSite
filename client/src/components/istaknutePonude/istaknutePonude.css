@@ -1,0 +1,102 @@
+/* Layout wrapper */
+.ip{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Card */
+.ipItem{
+    flex: 1 1 30%;
+    gap: 10px;
+    background: #ffffff;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    box-shadow: 0 10px 24px rgba(15,33,55,0.06);
+}
+
+.ipImg{
+    width: 100%;
+    object-fit: cover;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.offername{
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #0f2137;
+    margin-bottom: 6px;
+}
+
+div.offername{
+    min-height:3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipCity{
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: inline-block;
+    background-color:#f1fbfb;
+    color:#0f5f63;
+    padding: 6px 10px;
+    border-radius: 20px;
+    margin: 8px auto 0 auto;
+}
+
+.ipPrice{
+    font-weight: 700;
+    background: linear-gradient(90deg,#9ed3c9,#7ccfbf);
+    color: #08373a;
+    padding: 6px 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.eachprice{
+    font-weight: 600;
+    background: #f7fefa;
+    color:#0d4f50;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 0.95rem;
+    display:inline-block;
+}
+
+.ipReserv>button{
+    background-color: #0077b6 ;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 12px;
+}
+
+.ipCenter{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.offeritem{
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    color: #24323a;
+}
+
+@media (max-width: 900px){
+    .ipItem{ flex:1 1 100%; }
+}
+
