@@ -80,14 +80,3 @@ Development tips
 - When editing frontend styles, dev server auto-reloads (react-scripts). If you face CSS compilation errors, check for unclosed braces in `.css` files.
 - The backend uses `type: module` (ESM) in `api/package.json`.
 
-Next steps I can help with
-- Add `.env.example` and a migration script to recalculate `najjeftinijaPonuda` for all `Streljana` documents.
-- Create simple integration tests for core API routes.
-- Prepare a short deployment guide (e.g., Heroku + MongoDB Atlas or Vercel + Atlas).
-
-License
-- Add a license file (e.g., MIT) to the repo if you want to make the project public.
-
----
-
-If you want, I can commit this README to the repository (or replace the existing one) and also add `.env.example` and the migration script — tell me which of those you'd like next.
