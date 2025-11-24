@@ -7,7 +7,7 @@ Sadržaj repozitorijuma
 - `client/` — React frontend (klijent-facing web app).
 - `admin/` — admin React aplikacija za upravljanje (ponude, streljane).
 
-Preduvjeti
+Preduslovi
 - Node.js (>=16) i npm ili yarn
 - MongoDB (lokalno ili cloud, npr. Mongo Atlas)
 
@@ -43,23 +43,6 @@ $env:PORT=3001; npm start
 
 Napomene i savjeti
 - Environment varijable: backend može očekivati varijable poput `MONGO_URL`, `PORT`, `JWT_SECRET` itd. Provjerite `api/index.js` ili `api` konfiguraciju i dodajte `.env` ako želite.
-- Ako postoje streljane s netočnom `najjeftinijaPonuda` (npr. 0€), baza je možda stara — mogu dodati mali migration skript koji rekalkulira `najjeftinijaPonuda` iz povezanih `Ponuda` dokumenata.
+- Ako postoje streljane s netačnom `najjeftinijaPonuda` (npr. 0€), baza je možda stara — mogu dodati mali migration skript koji rekalkuliše `najjeftinijaPonuda` iz povezanih `Ponuda` dokumenata.
 - Pretraga po gradu sada je case-insensitive i podržava parcijalno poklapanje (regex) — backend ruta `GET /streljane` prihvaća `grad`, `min`, `max`, `limit`.
 
-Sugestije za razvoj
-- Dodajte `.env.example` u `api/` s potrebnim varijablama.
-- Dodajte jednostavan migration script `scripts/fix-prices.js` koji popravlja `najjeftinijaPonuda` za postojeće dokumente.
-- Pokrijte kritične rute minimalnim integracijskim testovima.
-
-Kontakt / dalje
-Ako želiš, mogu:
-- Dodati `README` na engleskom također
-- Napraviti migration skript i commit-ati ga ovdje
-- Dovršiti deployment guide (Heroku/Vercel + MongoDB Atlas)
-
-Licenca
-- Dodaj licencu po želji (npr. MIT) u root repozitorij.
-
----
-
-Ako želiš, odmah mogu dodati `.env.example` i migration skript — reci što preferiraš.
