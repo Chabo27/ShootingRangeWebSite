@@ -79,6 +79,8 @@ Notes and recommendations
 Development tips
 - When editing frontend styles, dev server auto-reloads (react-scripts). If you face CSS compilation errors, check for unclosed braces in `.css` files.
 - The backend uses `type: module` (ESM) in `api/package.json`.
-Screenshot:<img width="1887" height="932" alt="shooting range" src="https://github.com/user-attachments/assets/0a1784f7-f946-4090-8583-1b3a59020dad" />
+
+Screenshot:
+<img width="1887" height="932" alt="shooting range" src="https://github.com/user-attachments/assets/0a1784f7-f946-4090-8583-1b3a59020dad" />
 
 
