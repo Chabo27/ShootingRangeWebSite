@@ -1,4 +1,4 @@
-# SK Pogodak — Streljana rezervacije
+# SK Pogodak — Rezervacije za streljane
 
 Kratki README za GitHub — kako pokrenuti ovaj projekat lokalno.
 
